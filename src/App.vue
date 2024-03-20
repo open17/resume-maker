@@ -15,6 +15,7 @@ const update = debounce((e) => {
 
 const reset = () => {
   input.value = example;
+  localStorage.setItem("input", input.value);
 };
 
 const print = () => {
@@ -64,5 +65,5 @@ const print = () => {
 </template>
 
 <style>
-@import url('./markdown.css');
+@import url("./markdown.css");
 </style>
