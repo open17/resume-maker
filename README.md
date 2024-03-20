@@ -1,7 +1,35 @@
-# Vue 3 + Vite
+# Resume Maker
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+一款极简风格的markdown简历生成器，支持在线网页直接编辑,利用简洁的markdown语法，快速制作简历。
 
-## Recommended IDE Setup
+## 特性
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+- 支持Markdown语法和html语法
+- 提供默认简历模板
+- 支持tailwindcss
+- 数据持久化
+- 支持导出PDF
+
+## 使用
+可直接使用markdown语法编辑
+
+在基础markdown的样式上进行了适配简历常见需求的优化
+现在引用用于内容居中,如页首的联系方式
+```md
+> **电话**:(+86)123-4567-8912 |
+> **邮箱**: [xxxx@bbbb](mailto:xxxx@bbbb) | 
+> **In**: example
+```
+现在斜体默认右浮动,用于填写简历常见的时间信息
+```md
+Go后端开发,实习 *2023.02-2023.05* 
+```
+更多详细可参考默认[简历模板](./src/assets/example.md)
+
+一般来说简历需要在一页之内,可以在点击导出后修改缩放设置来保证简历都在同一页
+
+
+## 本地运行与开发
+
+你可以修改`markdown.css`用于更改你需要的简历样式
+`assets/example.md`则用于修改默认的算法模板
