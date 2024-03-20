@@ -3,7 +3,7 @@
 一款极简风格的markdown简历生成器，支持在线网页直接编辑,利用简洁的markdown语法，快速制作简历。
 
 ## 在线使用
-[在线编辑](resume-maker.open17.vip)
+[在线编辑](https://resume-maker.open17.vip)
 
 ## 特性
 
