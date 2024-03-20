@@ -1,10 +1,10 @@
 > # 李小明
 
 > **电话**:(+86)123-4567-8912 |
-> **邮箱**: [xxxx@bbbb](mailto:xxxx@bbbb) | 
+> **邮箱**: xxxx@bbbb | 
 > **In**: example
 
-## 教育经历
+## <i class="fa-solid fa-graduation-cap"></i>教育经历
 
 **地球大学**,地球    *2022.09-至今*   
 
@@ -17,7 +17,7 @@
 学士,计算机科学与技术 
 
 
-## 实习/项目经历
+## <i class="fa-solid fa-briefcase"></i>实习/项目经历
 
 ### 地球人公司 
 
@@ -34,7 +34,7 @@ Go后端开发,实习 *2023.02-2023.05*
 - xxxxxxxxxxxxxxxxxxxxxx
 - xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
-## 职业技能
+## <i class="fa-solid fa-cubes"></i>职业技能
 
 - 熟悉Java语法，多线程、集合等基础框架
 
@@ -52,17 +52,17 @@ Go后端开发,实习 *2023.02-2023.05*
 
 - 熟练掌握SpringMVC、Spring、MyBatis 等主流开源框架，以及Gradle、Maven 等项目构建工具
 
-## 获奖情况
+## <i class="fa-solid fa-trophy"></i>获奖情况
 
 - ABC Game Jam , **Rk1**  *2022.10*
 ---
 - XCPC Universe Final , **Gold**  *2021.01*
 
-## 自我评价
+## <i class="fa-solid fa-comment"></i>自我评价
 
 没什么好说的
 
-## 其他
+## <i class="fa-solid fa-bars"></i>其他
 
 - 技术博客: xxxxxx  
 - Github: xxxxxx

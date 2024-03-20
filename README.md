@@ -8,6 +8,7 @@
 ## 特性
 
 - 支持Markdown语法和html语法
+- 支持font awesome
 - 提供默认简历模板
 - 支持tailwindcss
 - 数据持久化
