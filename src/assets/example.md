@@ -19,16 +19,16 @@
 
 ## <i class="fa-solid fa-briefcase"></i>实习/项目经历
 
-### 地球人公司 
+ **地球人公司**  Go后端开发, 实习 *2023.02-2023.05*   
 
-Go后端开发,实习 *2023.02-2023.05* 
+---
 - xxxxxxxxxxxxx
 - xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 - xxxxxxxxxxxxxxxx
 
-### 超级JS运行时
+**超级JS运行时** 个人项目,[开源](https://github.com)  *2023.07-2023.08*   
 
-个人项目,[开源](https://github.com)  *2023.07-2023.08* 
+---
 
 技术栈: Rust+Google V8+xxxxx
 - xxxxxxxxxxxxxxxxxxxxxx
