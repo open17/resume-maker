@@ -30,7 +30,7 @@
 
 ---
 
-技术栈: Rust+Google V8+xxxxx
+技术栈: Rust+Chrome V8+xxxxx
 - xxxxxxxxxxxxxxxxxxxxxx
 - xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
