@@ -18,23 +18,20 @@ const reset = () => {
   localStorage.setItem("input", input.value);
 };
 
+const isPrinting = ref(false);
+
 const print = () => {
-  localStorage.setItem("input", input.value);
-  let contentToPrint = document.getElementById("markdown");
-  let originalContents = document.body.innerHTML;
-  document.body.innerHTML = contentToPrint.innerHTML;
-  window.print();
+  isPrinting.value = true;
   nextTick(() => {
-    document.body.innerHTML = originalContents;
-    input.value = localStorage.getItem("input");
-    location.reload();
+    window.print();
+    isPrinting.value = false;
   });
 };
 </script>
 
 
 <template>
-  <div class="h-screen flex w-full">
+  <div class="h-screen flex w-full" v-if="!isPrinting">
     <textarea
       class="overflow-auto box-border w-5/12 h-full p-5 border-r-2 border-r-slate-300 resize-none outline-none bg-slate-100"
       spellcheck="false"
@@ -62,6 +59,12 @@ const print = () => {
       </button>
     </div>
   </div>
+  <div
+    v-else
+    class="overflow-auto flex-1 h-full py-5 px-10"
+    v-html="output"
+    id="markdown"
+  ></div>
 </template>
 
 <style>
