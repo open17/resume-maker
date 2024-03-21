@@ -3,6 +3,7 @@ import { marked } from "marked";
 import { debounce } from "lodash-es";
 import { ref, computed, nextTick } from "vue";
 import example from "./assets/example.md?raw";
+import MarkdownRender from "./components/MarkdownRender.vue";
 
 const input = ref(localStorage.getItem("input") || example);
 
@@ -31,6 +32,7 @@ const print = () => {
 
 
 <template>
+  <!-- 非打印界面 -->
   <div class="h-screen flex w-full" v-if="!isPrinting">
     <textarea
       class="overflow-auto box-border w-5/12 h-full p-5 border-r-2 border-r-slate-300 resize-none outline-none bg-slate-100"
@@ -39,11 +41,8 @@ const print = () => {
       @input="update"
     >
     </textarea>
-    <div
-      class="overflow-auto flex-1 h-full py-5 px-10"
-      v-html="output"
-      id="markdown"
-    ></div>
+    <markdown-render :output="output" />
+    <!-- 按钮 -->
     <div class="fixed right-5 top-1 gap-2 flex">
       <button
         class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-1 px-2 rounded"
@@ -59,14 +58,6 @@ const print = () => {
       </button>
     </div>
   </div>
-  <div
-    v-else
-    class="overflow-auto flex-1 h-full py-5 px-10"
-    v-html="output"
-    id="markdown"
-  ></div>
+  <!-- 打印界面 -->
+  <markdown-render :output="output" v-else />
 </template>
-
-<style>
-@import url("./markdown.css");
-</style>
