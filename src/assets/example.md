@@ -1,14 +1,14 @@
 > # 李小明
 
 > **电话**:(+86)123-4567-8912 |
-> **邮箱**: xxxx@bbbb | 
+> **邮箱**: [xxxx@bbbb](mailto:xxxx@bbbb) | 
 > **In**: example
 
 ## <i class="fa-solid fa-graduation-cap"></i>教育经历
 
 **地球大学**,地球    *2022.09-至今*   
 
-在读硕士研究生 软件工程
+硕士研究生,软件工程
 
 ---
 
